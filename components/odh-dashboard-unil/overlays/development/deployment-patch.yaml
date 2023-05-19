@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: odh-dashboard-unil
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/odh-dashboard/odh-dashboard-unil@sha256:eed2286b5c75156f884784556de6daafd05c6b40c982667175082d15493dee00
+        name: container-image
+        resources: {}
+status: {}
