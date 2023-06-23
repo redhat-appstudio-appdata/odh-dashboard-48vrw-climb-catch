@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: odh-dashboard-unil
     app.kubernetes.io/part-of: odh-dashboard
-  name: odh-dashboard-unil8aiy
+  name: odh-dashboard-unilywiw
 spec:
   port:
     targetPort: 8080
