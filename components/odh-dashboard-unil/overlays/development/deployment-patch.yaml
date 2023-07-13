@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/odh-dashboard/odh-dashboard-unil@sha256:19009b685cabde0e4f27c28f18f6b3ac544087f79d9fe54f84a154b227206dbd
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/odh-dashboard/odh-dashboard-unil@sha256:a994d474e981d2d74ee53c1214e69477894c8a89ea4173680237277e45c89913
         name: container-image
         resources: {}
 status: {}
