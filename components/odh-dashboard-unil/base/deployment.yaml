@@ -26,7 +26,7 @@ spec:
       - env:
         - name: BACKEND_PORT
           value: "8080"
-        image: quay.io/redhat-user-workloads/rhtap-migration-tenant/odh-dashboard/odh-dashboard-unil@sha256:19009b685cabde0e4f27c28f18f6b3ac544087f79d9fe54f84a154b227206dbd
+        image: quay.io/redhat-user-workloads/rhtap-migration-tenant/odh-dashboard/odh-dashboard-unil@sha256:af868974aaec8e4b85375ffecd87c963adb2aa4ed1add3dde7146cc67c1d5d64
         imagePullPolicy: Always
         name: container-image
         ports:
